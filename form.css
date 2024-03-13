@@ -1,0 +1,148 @@
+*{
+
+    background-color: white;
+    
+}
+body{
+    border: 1px solid rgb(230, 226, 226);
+    border-radius: 3px;
+    padding: 49px 80px 86px 30px;
+    margin: auto;
+    /* width: 90%; */
+    width:90%;
+    
+}
+/* div {
+    
+    padding-left: 30px;
+   
+  } */
+  p.a{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 600;
+  
+  }
+  .input{
+    display: flex;
+    margin: 45px 25px;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 10px;
+  }
+  p{
+    margin: 0;
+  }
+  .second{
+    width: calc(90% - 10px);
+  }
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+#round {
+    border-radius: 15px;
+    background: #d5d6d4;
+    padding: 15px; 
+    /* width: 250px; */
+    width: 125px;
+    /* height: 0px;  */
+    height: 5px;
+    margin:auto;
+  } 
+
+  #round1 {
+    border-radius: 15px;
+    background: #d5d6d4;
+    margin:auto;
+    padding: 8px;
+    width: 100%;
+  } 
+/* input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border:2px solid black;
+} */
+#address
+{
+    border-radius: 15px;
+    background: #d5d6d4;
+    padding: 15px; 
+    width: 50%;
+    height: 0px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  
+}
+.button{
+    background-color: #48a564;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    padding: 0px 30px;
+    margin: 20px 1px;
+    float: right;
+}
+
+/* .c{
+    border: 0px solid rgb(115, 185, 209);
+    background: rgb(115, 185, 209);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.c2{
+display: flex;
+padding: 10px;
+margin: 0px 5px 5px 5px;
+height: 25px 
+} */
+
+.progress-bar {
+    counter-reset: progress;
+    display: flex;
+    /* width: 37%; */
+    
+  
+}
+
+.progress-round::after {
+    counter-increment: progress;
+    content: counter(progress);
+    width: 30px;
+    margin: auto;
+    border: 2px solid lightblue;
+    border-radius: 25px;
+    display: flex;
+    background-color: lightblue;
+    /* align-items: center; */
+    justify-content: center;
+}
+.info{
+    
+    text-align: center;
+    font-weight: 700;
+    margin:10px;
+}
+.form{
+    display: flex;
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
